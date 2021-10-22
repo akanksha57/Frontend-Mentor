@@ -1,0 +1,132 @@
+body {
+    background-color:hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.container {
+    max-width:1320px;
+    margin: 0 auto;
+    height:100vh;
+}
+
+.wrap {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height:90%;
+    padding-top:40px;
+    padding-bottom: 40px;
+    margin:0 2rem;
+}
+
+.logo-img {
+    width: 170px;    
+    padding-bottom: 20px;
+}
+
+.content {
+    display:flex; 
+    align-items: center;
+    gap:40px;
+}
+
+.illustration {
+    height:100%;
+    width:100%;
+}
+
+.text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin-bottom: 30px;
+
+}
+
+.big-text {    
+    font-size: 36px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.small-text {
+    line-height: 1.8;
+    font-weight:400;
+}
+
+.register {
+    color: hsl(257, 40%, 49%);
+    font-family: 'Poppins',
+        sans-serif;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    background: #FFF;
+    padding: 13px 50px;
+    border-radius: 28px;
+    text-decoration: none;
+    box-shadow: 0 8px 17px -8px rgba(0, 0, 0, .8);
+    transition: all .3s ease;
+}
+
+a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+} 
+
+  .social{
+     text-align: right;
+  }
+  .social a {
+      color:#fff;
+      position:relative;
+      font-size: 18px;
+      transition:all .3s ease;
+  }
+
+  .fab {
+      padding-right:25px;
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .big-text h1 {
+        line-height: 1.5;
+        font-size: 26px;
+    }
+
+    .text a {
+        padding: 10px 70px;
+    }
+}
+
